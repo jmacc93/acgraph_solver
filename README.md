@@ -4,9 +4,11 @@ I wrote this as a side project in a few days to test out an idea
 
 It should work on any system that can be turned into an acgraph
 
+Note: I *really* don't care if you don't like my lisp writing style
+
 # Future work
 
-Add more graph <-> acgraph converters
+Add more object <-> acgraph converters
 
 Add tests to determine whether the failure rate of the `acgraph-reduce/unitize!` reducer is higher than the `acgraph-reduce/eliminate!` reducer (I imagine it is, since `/unitize!` adds more information to the system than `/eliminate!`)
 
